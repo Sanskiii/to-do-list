@@ -1,0 +1,47 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ol:nth-child(even) {
+  margin: 0 auto;
+  width: 30%;
+}
+
+li {
+  padding: 5px 0;
+  font-size: 24px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+li:nth-child(even) {
+  background-color: #C4D8E2;
+}
+
+input {
+  height: 60px;
+  font-size: 24px;
+  width: 500px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid blue;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 40px;
+  background-color: transparent;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 24px;
+  color: blue;
+}
+
+input:focus {
+  outline: none;
+}
